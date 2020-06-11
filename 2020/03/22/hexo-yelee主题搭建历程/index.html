@@ -28,7 +28,7 @@
 <meta property="og:image" content="https://s1.ax1x.com/2020/03/22/8oZZbq.jpg">
 <meta property="og:image" content="https://s1.ax1x.com/2020/06/10/t7QRd1.jpg">
 <meta property="article:published_time" content="2020-03-22T03:14:11.000Z">
-<meta property="article:modified_time" content="2020-06-10T14:03:07.817Z">
+<meta property="article:modified_time" content="2020-06-11T02:04:20.297Z">
 <meta property="article:author" content="DRainw">
 <meta property="article:tag" content="blog搭建">
 <meta name="twitter:card" content="summary">
@@ -193,6 +193,10 @@
                             
                                 <a class="fa bilibili" href="https://space.bilibili.com/130649786" target="_blank" rel="noopener" title="bilibili"></a>
                             
+                                <a class="fa steam" href="http://steamcommunity.com/id/DRainw" target="_blank" rel="noopener" title="steam"></a>
+                            
+                                <a class="fa telegram" href="https://t.me/drainw" target="_blank" rel="noopener" title="telegram"></a>
+                            
                         </ul>
                     </nav>
                 </section>
@@ -270,6 +274,10 @@
                                 <a class="fa GitHub" target="_blank" href="https://github.com/DRainw" title="GitHub"></a>
                             
                                 <a class="fa bilibili" target="_blank" href="https://space.bilibili.com/130649786" title="bilibili"></a>
+                            
+                                <a class="fa steam" target="_blank" href="http://steamcommunity.com/id/DRainw" title="steam"></a>
+                            
+                                <a class="fa telegram" target="_blank" href="https://t.me/drainw" title="telegram"></a>
                             
                         </ul>
             </nav>
@@ -415,11 +423,12 @@
 <p>由于作者早早弃坑，能查到的信息也相当少</p>
 <p><a href="https://github.com/MOxFIVE/hexo-theme-yelee/issues/4" target="_blank" rel="noopener">issue#4</a> 作者留的 issue 页面</p>
 <p><a href="https://s1.ax1x.com/2020/03/22/8oZZbq.jpg" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/03/22/8oZZbq.jpg" alt="防止github抽风用的截图..."></a></p>
-<p>将<code>\freeshow.github.io\scaffolds</code>下的post.md模板档案修改为如下：</p>
+<p>将<code>\yourblog\scaffolds</code>下的post.md模板档案修改为如下：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">tags:</span><br><span class="line">categories:</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
 
 <p>当写档案时，就可以填写所属 tags 或 categories 了<br>但是， tags 和 categories 都会显示在标签云中</p>
-<h1 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h1><p>评论系统 <a href="https://sogrey.top/article/Hexo-添加-Gitment-评论/" target="_blank" rel="noopener">Hexo 添加 Gitment 评论</a></p>
+<h1 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h1><h2 id="评论系统"><a href="#评论系统" class="headerlink" title="评论系统"></a>评论系统</h2><p>评论系统 <a href="https://sogrey.top/article/Hexo-添加-Gitment-评论/" target="_blank" rel="noopener">Hexo 添加 Gitment 评论</a> </p>
+<h2 id="添加其他社交账号图标"><a href="#添加其他社交账号图标" class="headerlink" title="添加其他社交账号图标"></a>添加其他社交账号图标</h2><p><a href="https://blog.csdn.net/ls1160/article/details/84036950" target="_blank" rel="noopener">修改yelee的左下角连接的图标，以及增加自己的图标</a> </p>
 <h1 id="6月9日更新"><a href="#6月9日更新" class="headerlink" title="6月9日更新"></a>6月9日更新</h1><p>由于硬盘损坏造成blog本地文件全部丢失，不得不重新配置一遍</p>
 <p>于是当时瞎写的文章就用上了 <del>没想到第一个需要这篇辣鸡文章的居然是我自己</del> </p>
 <p>再次配置的过程中遇到几个问题</p>
@@ -427,7 +436,7 @@
 <li><p>在匹配SSH时输入 <code>ssh -T git@github.com</code> 后突然就鬼畜了，输出一堆  <code>yyyyyyyyy</code> ……</p>
 <p>解决办法：先输入一个 y 再输入 yes 就好了…神奇的bug</p>
 </li>
-<li><p>修改npm全局目录的时候没自信看清楚文件名，乌龙了半天…</p>
+<li><p>修改npm全局目录的时候没仔细看文件名，乌龙了半天…</p>
 <p><a href="https://blog.csdn.net/jianleking/article/details/79130667" target="_blank" rel="noopener">npm环境变量配置</a> </p>
 </li>
 <li><p>使用 <code>hexo s</code> 测试时发现首页不显示文章，排查后发现这是作者遗留的一个bug</p>
@@ -454,7 +463,7 @@
 <p>比较棘手的一些bug可以试试先 <code>hexo clean</code> 再 <code>hexo g</code> 重试</p>
 <p>6.10更新</p>
 <p>各位能不用这个主题就不用这个主题吧，，，作者跑路了很久了，这个主题实在没有前途，如果喜欢折腾和DIY主题的大佬当我没说。。。</p>
-<p>各位可以考虑用这个主题的原生主题 <a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="noopener">yilia</a> 或者经过dalao改版的 <a href="https://github.com/ngudream/N-Hexo-Blog" target="_blank" rel="noopener">yelee</a> 主题，或者干脆放弃以yilia为原型的双栏主题，使用更酷炫的 NexT 等等高人气主题</p>
+<p>各位可以考虑用这个主题的原生主题 <a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="noopener">yilia</a> 或者经过dalao改版的 <a href="https://github.com/ngudream/N-Hexo-Blog" target="_blank" rel="noopener">yelee</a> 主题，或是派生主题之 <a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank" rel="noopener">yelog</a>， 或者干脆放弃以yilia为原型的双栏主题，使用更酷炫的 NexT 等等高人气主题</p>
 <h1 id="有的没的参考链接"><a href="#有的没的参考链接" class="headerlink" title="有的没的参考链接"></a>有的没的参考链接</h1><p><a href="https://alexzhong22c.github.io/2017/02/22/my-hexo-theme/" target="_blank" rel="noopener">https://alexzhong22c.github.io/2017/02/22/my-hexo-theme/</a></p>
 <p><a href="https://gaomf.cn/2016/10/10/为Hexo博客Yilia主题添加本地站内搜索功能/#footer" target="_blank" rel="noopener">https://gaomf.cn/2016/10/10/%E4%B8%BAHexo%E5%8D%9A%E5%AE%A2Yilia%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E6%9C%AC%E5%9C%B0%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD/#footer</a> </p>
 
@@ -468,7 +477,7 @@
         <p><span>本文标题:</span><a href="/2020/03/22/hexo-yelee%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E5%8E%86%E7%A8%8B/">hexo-yelee主题搭建历程</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">DRainw</a></p>
         <p><span>发布时间:</span>2020-03-22, 11:14:11</p>
-        <p><span>最后更新:</span>2020-06-10, 22:03:07</p>
+        <p><span>最后更新:</span>2020-06-11, 10:04:20</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2020/03/22/hexo-yelee%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E5%8E%86%E7%A8%8B/" title="hexo-yelee主题搭建历程">https://drainw.github.io/2020/03/22/hexo-yelee%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E5%8E%86%E7%A8%8B/</a>
             <span class="copy-path" data-clipboard-text="原文: https://drainw.github.io/2020/03/22/hexo-yelee%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E5%8E%86%E7%A8%8B/　　作者: DRainw" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
@@ -498,7 +507,7 @@
     <div id="toc" class="toc-article">
         <strong class="toc-title">文章目录</strong>
         
-            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#基础准备"><span class="toc-text">基础准备</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Blog-部署"><span class="toc-text">Blog 部署</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#搭建环境"><span class="toc-text">搭建环境</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#发布到-Github-Pages"><span class="toc-text">发布到 Github Pages</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Yelee主题及配置"><span class="toc-text">Yelee主题及配置</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#关于主题"><span class="toc-text">关于主题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Yelee主题配置"><span class="toc-text">Yelee主题配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#tags和标签"><span class="toc-text">tags和标签</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#补充"><span class="toc-text">补充</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#6月9日更新"><span class="toc-text">6月9日更新</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#结语"><span class="toc-text">结语</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#有的没的参考链接"><span class="toc-text">有的没的参考链接</span></a></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#基础准备"><span class="toc-text">基础准备</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Blog-部署"><span class="toc-text">Blog 部署</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#搭建环境"><span class="toc-text">搭建环境</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#发布到-Github-Pages"><span class="toc-text">发布到 Github Pages</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Yelee主题及配置"><span class="toc-text">Yelee主题及配置</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#关于主题"><span class="toc-text">关于主题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Yelee主题配置"><span class="toc-text">Yelee主题配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#tags和标签"><span class="toc-text">tags和标签</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#补充"><span class="toc-text">补充</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#评论系统"><span class="toc-text">评论系统</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#添加其他社交账号图标"><span class="toc-text">添加其他社交账号图标</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#6月9日更新"><span class="toc-text">6月9日更新</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#结语"><span class="toc-text">结语</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#有的没的参考链接"><span class="toc-text">有的没的参考链接</span></a></li></ol>
         
     </div>
     <style>

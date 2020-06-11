@@ -883,6 +883,18 @@ a {
   -moz-background-size: 103%;
   background-size: 103%;
 }
+#header .header-nav .social .telegram {
+  background: url("/img/telegram.png") center no-repeat #fff;
+  -webkit-background-size: 90%;
+  -moz-background-size: 90%;
+  background-size: 90%;
+}
+#header .header-nav .social .steam {
+  background: url("/img/steam.png") center no-repeat #fff;
+  -webkit-background-size: 110%;
+  -moz-background-size: 110%;
+  background-size: 110%;
+}
 #header .header-nav .social .GitHub {
   background: url("https://s1.ax1x.com/2020/04/20/JQZIdP.png") no-repeat #fff;
   -webkit-background-size: 100%;
